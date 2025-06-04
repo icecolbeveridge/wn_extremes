@@ -23,11 +23,12 @@ It also plots...
   python extremes.py # runs with default values on Waddington data
 
 **Optional parameters (and defaults):**
-    -f data/Waddington_Station_Data.xlsx # specify file to use
-    -F RAINFALL_M           # specify spreadsheet field name
-    -t 10.0                 # adjust the lower-bound threshold for the GEV
-    -a 0.95                 # width of confidence interval
-    -n 1000                 # number of samples for CI calculation
+
+*  `-f data/Waddington_Station_Data.xlsx # specify file to use`
+*  `-F RAINFALL_M           # specify spreadsheet field name`
+*  `-t 10.0                 # adjust the lower-bound threshold for the GEV`
+*  `-a 0.95                 # width of confidence interval`
+*  `-n 1000                 # number of samples for CI calculation`
 
 [Picking the threshold value is more of an art than a science](https://georgebv.github.io/pyextremes/user-guide/5-threshold-selection/), and it's worth playing around with the parameter to find a good fit to the data.
 
