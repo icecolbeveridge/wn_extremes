@@ -20,7 +20,8 @@ It also plots...
 
 ## Usage
 
-  python extremes.py # runs with default values on Waddington data
+
+  `python extremes.py # runs with default values on Waddington data assumed to be in the data/ directory`
 
 **Optional parameters (and defaults):**
 
