@@ -69,7 +69,6 @@ if __name__ == "__main__":
     parser.add_argument("-n", "--n_samples", type=int, default=n_samples)
     args = parser.parse_args()
 
-
     model, summary = get_extremes(args.filename, args.field, args.threshold, return_period=return_period)
 
     # show_data(model)
